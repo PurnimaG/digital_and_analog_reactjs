@@ -1,0 +1,12 @@
+.d-wrapper {
+    width: 250px;
+    height: 133px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 0 2px 30px rgba(245, 242, 242, 0.738);
+}
+
+.d-wrapper h1 {
+    color: black;
+}

@@ -1,0 +1,108 @@
+.clock-wrapper {
+    width: 250px;
+    height: 250px;
+    border: 2px solid #000000;
+    border-radius: 50%;
+    background-color: antiquewhite;
+    position: relative;
+    color:#000000;
+    box-shadow: 0 2px 30px rgba(245, 242, 242, 0.738);
+    font-size: 24px;
+    text-align: center;
+    
+}
+
+.clock-wrapper::after {
+    background: #000000;
+    content: "";
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+.clock-wrapper .num {
+    position: absolute;
+}
+
+.clock-wrapper .one {
+    top: 10%;
+    right: 26%;
+}
+.clock-wrapper .two {
+    top: 25%;
+    right: 10%;
+}
+.clock-wrapper .three {
+    right: 10px;
+    top: 46%;
+}
+.clock-wrapper .four {
+    right: 28px;
+    top: 64%;
+}
+.clock-wrapper .five {
+    right: 65px;
+    top: 77%;
+}
+.clock-wrapper .six {
+    right: 115px;
+    top: 83%;
+}
+.clock-wrapper .seven {
+    right: 169px;
+    top: 78%;
+}
+.clock-wrapper .eight {
+    right: 204px;
+    top: 63%;
+}
+.clock-wrapper .nine {
+    right: 222px;
+    top: 45%;
+}
+.clock-wrapper .ten {
+    right: 201px;
+    top: 25%;
+}
+.clock-wrapper .eleven {
+    right: 172px;
+    top: 10%;
+}
+.clock-wrapper .tweleve {
+    right: 112px;
+    top: 2%;
+}
+
+.hour {
+    position: absolute;
+    width: 6px;
+    height: 60px;
+    background: #000000;
+    top: 26%;
+    left: 48.5%;
+    transform-origin: bottom;
+}
+
+.minute {
+    position: absolute;
+    width: 4px;
+    height: 65px;
+    background: #000000;
+    top: 23%;
+    left: 49.5%;
+    transform-origin: bottom;
+}
+.second {
+    position: absolute;
+    width: 2px;
+    height: 85px;
+    background: red;
+    top: 14%;
+    left: 50%;
+    transform-origin: bottom;
+}
