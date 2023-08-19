@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import './App.css'
 import Analog from './components/Analog/Analog';
-import Digital from './components/digital/digital';
+import Digital from './components/Digital/Digital';
 
 function App() {
   const [count, setCount] = useState(0)
